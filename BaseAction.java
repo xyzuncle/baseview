@@ -29,6 +29,9 @@ import org.apache.struts2.ServletActionContext;
 
 public class BaseAction extends ActionSupport
 {
+
+  public void aaaaaa(){};
+
   public void getImageByAttachment()
   {
     String id = ServletActionContext.getRequest().getParameter("attchmentId");
